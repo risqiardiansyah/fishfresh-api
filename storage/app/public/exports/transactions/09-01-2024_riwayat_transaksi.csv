@@ -1,0 +1,166 @@
+No,Nomor Transaksi,Nama Pengguna,Nomor Telepon,Email,Level Pengguna,Quantity,Total Pembelian,Status,Metode Pembayaran,Waktu Transaksi
+1,VGN0000000922,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7573,success,Saldo,09-01-2024 19:37:05
+2,VGN0000000920,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7573,success,Saldo,09-01-2024 19:32:51
+3,VGN0000000919,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10020,waiting,BRI - D,09-01-2024 19:29:41
+4,VGN0000000918,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8510,waiting,BCA-M,09-01-2024 19:29:10
+5,VGN0000000917,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14980,waiting,BRI - D,09-01-2024 19:27:50
+6,VGN0000000916,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15086,waiting,BRI - D,09-01-2024 19:26:39
+7,VGN0000000915,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7468,success,BCA-M,09-01-2024 19:24:59
+8,VGN0000000881,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8503,cancel,Saldo,08-01-2024 21:45:08
+9,VGN0000000880,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,19860,cancel,BCA-M,08-01-2024 21:44:05
+10,VGN0000000878,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,19860,cancel,BRI - D,08-01-2024 21:41:55
+11,VGN0000000877,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,19860,cancel,BCA-M,08-01-2024 21:40:11
+12,VGN0000000876,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,9930,cancel,BCA-M,08-01-2024 21:39:46
+13,VGN0000000875,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,19860,cancel,BRI - D,08-01-2024 18:53:02
+14,VGN0000000874,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,9931,cancel,BCA-M,08-01-2024 18:50:25
+15,VGN0000000873,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,19960,cancel,BRI - D,08-01-2024 18:19:38
+16,VGN0000000869,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,19960,cancel,BRI - D,08-01-2024 18:10:43
+17,VGN0000000867,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,19960,cancel,BRI - D,08-01-2024 18:09:34
+18,VGN0000000865,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,22000,cancel,BRI - D,08-01-2024 18:08:01
+19,VGN0000000864,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,16544,cancel,BRI - D,08-01-2024 18:07:35
+20,VGN0000000863,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,20010,cancel,BRI - D,08-01-2024 18:05:58
+21,VGN0000000862,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15050,cancel,BRI - D,08-01-2024 18:05:14
+22,VGN0000000857,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,17040,expired,BCA-M,08-01-2024 17:57:31
+23,VGN0000000856,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,12000,expired,BCA-M,08-01-2024 17:57:17
+24,VGN0000000851,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,20020,expired,BCA-M,08-01-2024 00:28:35
+25,VGN0000000848,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10224,expired,BCA-M,08-01-2024 00:24:20
+26,VGN0000000846,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8540,success,BCA-M,08-01-2024 00:21:38
+27,VGN0000000843,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,19960,success,Saldo,08-01-2024 00:12:58
+28,VGN0000000841,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,18000,success,Saldo,08-01-2024 00:11:40
+29,VGN0000000839,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,22000,success,Saldo,08-01-2024 00:10:30
+30,VGN0000000837,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8520,success,Saldo,08-01-2024 00:09:08
+31,VGN0000000835,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,19985,success,Saldo,08-01-2024 00:07:36
+32,VGN0000000833,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,20010,success,Saldo,08-01-2024 00:04:51
+33,VGN0000000831,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8520,success,Saldo,08-01-2024 00:03:39
+34,VGN0000000823,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,20010,success,Saldo,07-01-2024 23:06:35
+35,VGN0000000821,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8520,success,Saldo,07-01-2024 23:04:43
+36,VGN0000000819,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14980,success,Saldo,07-01-2024 23:02:19
+37,VGN0000000817,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7144,success,Saldo,07-01-2024 23:00:31
+38,VGN0000000815,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,16544,success,Saldo,07-01-2024 22:59:03
+39,VGN0000000813,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7520,success,Saldo,07-01-2024 22:57:58
+40,VGN0000000812,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15040,waiting,BRI - D,07-01-2024 22:57:23
+41,VGN0000000811,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15040,waiting,BCA-M,07-01-2024 22:57:00
+42,VGN0000000809,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14040,success,Saldo,07-01-2024 22:54:19
+43,VGN0000000807,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7720,success,Saldo,07-01-2024 22:52:19
+44,VGN0000000805,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7520,success,Saldo,07-01-2024 22:50:41
+45,VGN0000000804,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,80279,cancel,BRI - D,07-01-2024 22:40:08
+46,VGN0000000803,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,80279,cancel,BCA-M,07-01-2024 22:39:38
+47,VGN0000000802,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,72468,cancel,BRI - D,07-01-2024 22:38:01
+48,VGN0000000801,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,72468,expired,BCA-M,07-01-2024 22:37:35
+49,VGN0000000800,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,99572,cancel,BRI - D,07-01-2024 22:33:24
+50,VGN0000000799,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,11000,expired,BCA-M,07-01-2024 22:32:14
+51,VGN0000000798,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,299950,cancel,BRI - D,07-01-2024 22:30:43
+52,VGN0000000797,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,499950,cancel,BCA-M,07-01-2024 22:30:20
+53,VGN0000000796,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,20100,cancel,BRI - D,07-01-2024 22:29:04
+54,VGN0000000795,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10100,expired,BCA-M,07-01-2024 22:28:22
+55,VGN0000000794,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15145,cancel,BRI - D,07-01-2024 22:21:29
+56,VGN0000000793,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15145,expired,BCA-M,07-01-2024 22:21:18
+57,VGN0000000792,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14694,cancel,BRI - D,07-01-2024 22:20:31
+58,VGN0000000791,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14694,expired,BCA-M,07-01-2024 22:20:19
+59,VGN0000000790,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14995,cancel,BRI - D,07-01-2024 22:17:14
+60,VGN0000000789,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14995,expired,BCA-M,07-01-2024 22:11:02
+61,VGN0000000784,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14995,cancel,BRI - D,07-01-2024 10:22:01
+62,VGN0000000780,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15040,cancel,BRI - D,07-01-2024 03:12:40
+63,VGN0000000779,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15040,expired,BCA-M,07-01-2024 03:09:07
+64,VGN0000000778,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14288,cancel,BRI - D,07-01-2024 03:07:31
+65,VGN0000000777,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,14288,cancel,BCA-M,07-01-2024 03:07:13
+66,VGN0000000776,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,16544,cancel,BRI - D,07-01-2024 03:05:55
+67,VGN0000000775,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,16544,cancel,BCA-M,07-01-2024 03:05:36
+68,VGN0000000774,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15030,cancel,BRI - D,07-01-2024 03:03:54
+69,VGN0000000773,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15030,expired,BCA-M,07-01-2024 03:03:20
+70,VGN0000000772,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,15050,cancel,BRI - D,07-01-2024 02:54:29
+71,VGN0000000771,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,3,22570,expired,BCA-M,07-01-2024 02:53:55
+72,VGN0000000730,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8056,success,Saldo,06-01-2024 22:30:48
+73,VGN0000000725,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8056,failed,Saldo,06-01-2024 22:29:07
+74,VGN0000000723,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7070,success,Saldo,03-01-2024 20:57:33
+75,VGN0000000721,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,6930,success,Saldo,03-01-2024 20:56:04
+76,VGN0000000719,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,7000,success,Saldo,03-01-2024 20:54:46
+77,VGN0000000713,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,53980,waiting,BCA-M,20-12-2023 00:23:22
+78,VGN0000000710,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,49980,waiting,BCA-M,20-12-2023 00:19:49
+79,VGN0000000708,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,4998,success,Saldo,20-12-2023 00:11:05
+80,VGN0000000706,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50000,success,Saldo,20-12-2023 00:07:50
+81,VGN0000000704,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50000,success,Saldo,20-12-2023 00:02:38
+82,VGN0000000702,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50000,success,Saldo,20-12-2023 00:01:08
+83,VGN0000000700,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50000,success,Saldo,19-12-2023 23:59:48
+84,VGN0000000698,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50000,success,Saldo,19-12-2023 23:57:49
+85,VGN0000000697,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,expired,BCA-M,19-12-2023 22:58:27
+86,VGN0000000695,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50000,success,Saldo,19-12-2023 22:20:20
+87,VGN0000000693,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50000,success,Saldo,19-12-2023 22:16:26
+88,VGN0000000691,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,49500,success,Saldo,19-12-2023 22:12:57
+89,VGN0000000687,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,55000,expired,Alfamart,18-12-2023 23:18:37
+90,VGN0000000679,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,success,BCA-M,03-12-2023 15:53:27
+91,VGN0000000675,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,success,BCA-M,03-12-2023 15:50:14
+92,VGN0000000672,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,success,BCA-M,03-12-2023 15:44:03
+93,VGN0000000669,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169025,cancel,BRI-M,03-12-2023 15:26:10
+94,VGN0000000668,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,success,BCA-M,03-12-2023 15:19:16
+95,VGN0000000667,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10010,failed,BCA-M,03-12-2023 15:18:25
+96,VGN0000000665,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50000,success,Saldo,03-12-2023 14:27:53
+97,VGN0000000658,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,success,BCA-M,03-12-2023 00:44:05
+98,VGN0000000657,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,success,BCA-M,03-12-2023 00:34:20
+99,VGN0000000656,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169010,success,BCA-M,03-12-2023 00:33:02
+100,VGN0000000655,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,success,BCA-M,03-12-2023 00:31:20
+101,VGN0000000641,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,expired,BCA-M,27-11-2023 21:43:40
+102,VGN0000000640,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,60010,success,BCA-M,27-11-2023 21:29:09
+103,VGN0000000640,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,60010,success,BCA-M,27-11-2023 21:29:09
+104,VGN0000000639,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,60010,cancel,BCA-M,27-11-2023 21:27:51
+105,VGN0000000639,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,60010,cancel,BCA-M,27-11-2023 21:27:51
+106,VGN0000000635,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,100000,success,Saldo,26-11-2023 22:01:29
+107,VGN0000000633,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,100000,success,Saldo,26-11-2023 22:00:00
+108,VGN0000000632,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,4,200010,expired,BCA-M,25-11-2023 23:47:10
+109,VGN0000000631,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169010,success,BCA-M,25-11-2023 23:39:35
+110,VGN0000000630,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10010,failed,BCA-M,25-11-2023 23:37:38
+111,VGN0000000629,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,50010,success,BCA-M,25-11-2023 23:34:59
+112,VGN0000000627,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,5000,success,Saldo,25-11-2023 23:32:51
+113,VGN0000000624,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10000,failed,Saldo,25-11-2023 23:31:39
+114,VGN0000000622,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169000,success,Saldo,25-11-2023 23:28:34
+115,VGN0000000619,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10000,failed,Saldo,25-11-2023 23:27:14
+116,VGN0000000616,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10000,failed,Saldo,25-11-2023 22:59:42
+117,VGN0000000613,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169000,success,Saldo,25-11-2023 22:18:18
+118,VGN0000000612,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,10000,failed,Saldo,25-11-2023 22:15:46
+119,VGN0000000611,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,25-11-2023 22:13:22
+120,VGN0000000610,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,25-11-2023 22:12:44
+121,VGN0000000609,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,25-11-2023 22:08:53
+122,VGN0000000607,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,25-11-2023 22:04:06
+123,VGN0000000608,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169000,success,Saldo,24-11-2023 22:07:14
+124,VGN0000000603,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,4,20010,expired,BCA-M,24-11-2023 18:44:06
+125,VGN0000000601,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,2,10000,success,Saldo,24-11-2023 18:43:05
+126,VGN0000000600,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169010,success,BCA-M,24-11-2023 18:41:13
+127,VGN0000000599,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69010,failed,BCA-M,24-11-2023 18:39:56
+128,VGN0000000598,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169000,success,Saldo,24-11-2023 18:39:14
+129,VGN0000000597,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,24-11-2023 18:37:07
+130,VGN0000000589,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,1699000,success,Saldo,23-11-2023 23:20:46
+131,VGN0000000588,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169000,success,Saldo,23-11-2023 23:19:38
+132,VGN0000000587,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169000,success,Saldo,23-11-2023 23:14:53
+133,VGN0000000586,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,23-11-2023 23:13:38
+134,VGN0000000585,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,23-11-2023 23:12:46
+135,VGN0000000584,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169133,waiting,BRI - D,23-11-2023 23:11:18
+136,VGN0000000583,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,23-11-2023 23:10:16
+137,VGN0000000582,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,23-11-2023 22:48:35
+138,VGN0000000581,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,169000,success,Saldo,23-11-2023 22:47:24
+139,VGN0000000580,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,23-11-2023 22:46:24
+140,VGN0000000579,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,69000,failed,Saldo,23-11-2023 22:43:55
+141,VGN0000000573,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,5000,success,Saldo,23-11-2023 21:03:30
+142,VGN0000000572,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,3924,success,Saldo,23-11-2023 20:50:40
+143,VGN0000000571,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,1682,success,Saldo,23-11-2023 20:39:02
+144,VGN0000000570,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,3924,success,Saldo,23-11-2023 20:03:57
+145,VGN0000000569,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,3924,success,Saldo,23-11-2023 20:03:02
+146,VGN0000000564,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,1000,success,Saldo,31-10-2023 12:15:55
+147,VGN0000000563,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,20010,failed,BCA-M,31-10-2023 12:12:09
+148,VGN0000000562,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,20010,failed,BCA-M,31-10-2023 12:10:36
+149,VGN0000000537,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,99,2613600,success,BCA-M,18-10-2023 01:33:37
+150,VGN0000000536,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,50,1320000,success,BCA-M,18-10-2023 01:33:07
+151,VGN0000000535,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,199,5253600,expired,BCA-M,18-10-2023 01:31:03
+152,VGN0000000530,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,99,4707000,success,Saldo,16-10-2023 22:35:22
+153,VGN0000000530,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,50,4707000,success,Saldo,16-10-2023 22:35:22
+154,VGN0000000530,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,99,4707000,success,Saldo,16-10-2023 22:35:22
+155,VGN0000000528,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,299000,success,Saldo,16-10-2023 22:28:44
+156,VGN0000000526,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,299010,success,Saldo,16-10-2023 22:27:29
+157,VGN0000000525,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,99,4665100,success,BCA-M,16-10-2023 22:23:32
+158,VGN0000000525,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,20,4665100,success,BCA-M,16-10-2023 22:23:32
+159,VGN0000000525,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,30,4665100,success,BCA-M,16-10-2023 22:23:32
+160,VGN0000000523,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,75900,success,Saldo,16-10-2023 22:09:43
+161,VGN0000000521,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,50,10945000,success,Saldo,16-10-2023 19:45:59
+162,VGN0000000520,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,299025,waiting,BRI-M,16-10-2023 19:42:34
+163,VGN0000000518,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8800,success,Saldo,16-10-2023 19:27:35
+164,VGN0000000516,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,1,8800,success,Saldo,16-10-2023 19:21:13
+165,VGN0000000514,farid memberre,'1234567890,pulsasmart2@gmail.com,Member,30,3267000,success,Saldo,16-10-2023 19:12:30

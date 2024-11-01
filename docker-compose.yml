@@ -1,0 +1,54 @@
+version: '3.3'
+services:
+  app:
+    image: erwinra/vogaon-be:1.0.6
+    container_name: app
+    restart: unless-stopped
+    tty: true
+    env_file: .env
+    volumes:
+      - ./storage:/storage/app/public
+    depends_on:
+      - cache
+      - db
+    networks:
+      - vogaon-prod
+  db:
+    image: mysql:5.7.22
+    container_name: db
+    restart: unless-stopped
+    tty: true
+    environment:
+      MYSQL_DATABASE: vogaon
+      TZ: Asia/Jakarta
+      MYSQL_USER: elbicnivni
+      MYSQL_PASSWORD: b@T[xGAoJLS!
+      MYSQL_ROOT_PASSWORD: b@T[xGAoJLS!
+    ports:
+      - "3307:3306"
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci','--default-time-zone=+07:00']
+
+    networks:
+      - vogaon-prod
+  web_server:
+    image: erwinra/vogaon-webserver:latest
+    container_name: web_server
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "8002:80"
+    depends_on:
+      - app
+    networks:
+      - vogaon-prod
+  cache:
+    image: redis:alpine
+    container_name: cache
+    restart: unless-stopped
+    networks:
+      - vogaon-prod
+
+#Docker Networks
+networks:
+  vogaon-prod:
+    driver: bridge

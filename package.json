@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.19.4",
+        "axios": "^0.21",
+        "husky": "^8.0.3",
+        "laravel-mix": "^6.0.6",
+        "lint-staged": "^13.2.0",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "prettier": "^2.8.5"
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        },
+        "hooks": {
+            "pre-commit": [
+                "echo fixing php coding style",
+                "./vendor/bin/php-cs-fixer fix app",
+                "git add ."
+            ],
+            "pre-push": [
+                "./vendor/bin/php-cs-fixer fix app --dry-run"
+            ]
+        }
+    },
+    "dependencies": {
+        "sweetalert2": "^11.7.3"
+    }
+}

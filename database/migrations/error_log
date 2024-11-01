@@ -1,0 +1,28 @@
+[20-Jun-2023 02:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PhpCsFixer\Config::create() in /home/alancreative/public_html/vogaon-backend/.php-cs-fixer.php:142
+Stack trace:
+#0 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/ConfigurationResolver.php(952): include()
+#1 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/ConfigurationResolver.php(263): PhpCsFixer\Console\ConfigurationResolver::separatedContextLessInclude('/home/alancreat...')
+#2 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/ConfigurationResolver.php(280): PhpCsFixer\Console\ConfigurationResolver->getConfig()
+#3 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/Command/FixCommand.php(254): PhpCsFixer\Console\ConfigurationResolver->getConfigFile()
+#4 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/vendor/symfony/console/Command/Command.php(298): PhpCsFixer\Console\Command\FixCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(PhpCsFixer\Console\Command\FixCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/Application.php(90): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/vendor/symfony/console/Application.php(171): PhpCsFixer\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar(102): Symfony\Component\Console\Application->run()
+#10 {main}
+  thrown in /home/alancreative/public_html/vogaon-backend/.php-cs-fixer.php on line 142
+[20-Jun-2023 02:33:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PhpCsFixer\Config::create() in /home/alancreative/public_html/vogaon-backend/.php-cs-fixer.php:142
+Stack trace:
+#0 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/ConfigurationResolver.php(952): include()
+#1 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/ConfigurationResolver.php(263): PhpCsFixer\Console\ConfigurationResolver::separatedContextLessInclude('/home/alancreat...')
+#2 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/ConfigurationResolver.php(280): PhpCsFixer\Console\ConfigurationResolver->getConfig()
+#3 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/Command/FixCommand.php(254): PhpCsFixer\Console\ConfigurationResolver->getConfigFile()
+#4 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/vendor/symfony/console/Command/Command.php(298): PhpCsFixer\Console\Command\FixCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(PhpCsFixer\Console\Command\FixCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/src/Console/Application.php(90): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 phar:///root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar/vendor/symfony/console/Application.php(171): PhpCsFixer\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /root/.vscode-server/extensions/junstyle.php-cs-fixer-0.3.9/php-cs-fixer.phar(102): Symfony\Component\Console\Application->run()
+#10 {main}
+  thrown in /home/alancreative/public_html/vogaon-backend/.php-cs-fixer.php on line 142
