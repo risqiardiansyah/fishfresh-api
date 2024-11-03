@@ -128,7 +128,7 @@ class MessagesController extends ApiController
 
         $status = $request->transaction_status;
 
-        if (($status == 'settlement' || $status == 'capture') ** $request->fraud_status == 'accept') {
+        if (($status == 'settlement' || $status == 'capture') && $request->fraud_status == 'accept') {
             DB::table('transaction')->where('transaction_code', $order_id)->update(['status' => 'process']);
         }
 
