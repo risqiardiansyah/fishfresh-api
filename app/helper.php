@@ -314,29 +314,9 @@ if (!function_exists('checkVerificationReset')) {
 if (!function_exists('generateOrderCode')) {
     function generateOrderCode($code)
     {
-        if (env('SERVER', 'prod') == 'prod') {
-            try {
-                $latestTransaction = DB::table('transaction')
-                    ->where(function ($query) {
-                        $query->where('transaction_code', 'LIKE', 'VGN%');
-                    })->orderBy('id', 'DESC')->first();
-                if (!empty($latestTransaction)) {
-                    $lastCode = (int) substr($latestTransaction->transaction_code, 3);
-                    $nextCode = $lastCode + 1;
-                } else {
-                    $nextCode = 1;
-                }
-                $result = $code . str_pad($nextCode, 10, '0', STR_PAD_LEFT);
-                return $result;
-            } catch (\Exception $e) {
-                $result = $code . str_pad(1, 10, '0', STR_PAD_LEFT);
-                return $result;
-            }
-        } else {
-            $result = $code . date('y') . date('m') . date('d') . date('H') . date('i') . date('s') . mt_rand(10, 99999999);
+        $result = $code . date('y') . date('m') . date('d') . date('H') . date('i') . date('s') . mt_rand(10, 99999999);
 
-            return $result;
-        }
+        return $result;
 
         // try {
         //     $check = DB::table('transaction')->orderBy('created_at', 'DESC')->first();
