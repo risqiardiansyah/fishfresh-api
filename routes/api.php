@@ -10,6 +10,9 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::group(['prefix' => 'v1'], function () {
+  Route::get('/callback', [MessagesController::class, 'callbackMidtrans']);
+  Route::post('/callback', [MessagesController::class, 'callbackMidtrans']);
+
   // AUTH
   Route::post('/login', [AuthController::class, 'login']);
   Route::post('/register', [AuthController::class, 'register']);

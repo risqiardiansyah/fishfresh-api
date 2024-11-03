@@ -7,6 +7,7 @@ use App\Http\Controllers\ApiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 class MessagesController extends ApiController
 {
@@ -18,7 +19,7 @@ class MessagesController extends ApiController
         $data = DB::table('messages')
             ->where('user_id', $from)
             ->where('shop_id', $to)
-            ->orderBy('id','desc')
+            ->orderBy('id', 'desc')
             ->get();
 
         foreach ($data as $value) {
@@ -58,7 +59,7 @@ class MessagesController extends ApiController
         $data = DB::table('messages')
             ->where('user_id', $to)
             ->where('shop_id', $from)
-            ->orderBy('id','desc')
+            ->orderBy('id', 'desc')
             ->get();
 
         foreach ($data as $value) {
@@ -78,7 +79,7 @@ class MessagesController extends ApiController
 
         $data = DB::table('messages')
             ->where('shop_id', $shop_id)
-            ->orderBy('created_at','desc')
+            ->orderBy('created_at', 'desc')
             ->groupBy('user_id')
             ->get();
 
@@ -107,5 +108,48 @@ class MessagesController extends ApiController
         DB::table('messages')->insert($data);
 
         return $this->sendResponse(0, 'Success', $data);
+    }
+
+    public function callbackMidtrans(Request $request)
+    {
+        Log::info('[CALLBACK] ');
+        Log::info(json_encode($request->all()));
+
+        $order_id = '';
+        if (isset($request->order_id)) {
+            $id = explode('-', $request->order_id);
+            $order_id = $id[0];
+        } elseif (isset($request->merchantOrderId)) {
+            //duitku
+            $order_id = $request->merchantOrderId;
+        } elseif (isset($request->data)) {
+            $order_id = $request->data['ref_id'];
+        }
+
+        $status = $request->transaction_status;
+
+        if (($status == 'settlement' || $status == 'capture') ** $request->fraud_status == 'accept') {
+            DB::table('transaction')->where('transaction_code', $order_id)->update(['status' => 'process']);
+        }
+
+        // if ($status == 'pending') {
+        //     $status = 'waiting';
+        //     DB::table('transaction')->where('transaction_code', $order_id)->update(['status' => $status]);
+        //     return ['success' => true, 'msg' => 'Transaksi pending'];
+        // } elseif ($status == 'cancel') {
+        //     $status = 'cancel';
+        //     DB::table('transaction')->where('transaction_code', $order_id)->update(['status' => $status]);
+        //     return ['success' => true, 'msg' => 'Transaksi dibatalkan'];
+        // } elseif ($status == 'failure' || $status == 'deny') {
+        //     $status = 'failed';
+        //     DB::table('transaction')->where('transaction_code', $order_id)->update(['status' => $status]);
+        //     return ['success' => true, 'msg' => 'Transaksi gagal dilakukan'];
+        // } elseif ($status == 'expire') {
+        //     $status = 'expired';
+        //     DB::table('transaction')->where('transaction_code', $order_id)->update(['status' => $status]);
+        //     return ['success' => true, 'msg' => 'Transaksi expired'];
+        // }
+
+        return $this->sendResponse(0, 'Success', []);
     }
 }
